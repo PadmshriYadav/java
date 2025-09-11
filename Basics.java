@@ -10,7 +10,14 @@
 
   int score = 100;
   int is the data type, score is the variable, and 100 is the valint is the data type, score is the name, and 100 is the value.
- */
+  100 is an integer literal.
+
+
+  *----->literals
+value you store in a variable is a literal.
+    String greeting = "Hello";
+   greeting is the variable , "Hello" string literal.
+  */
 
 public class Basics {
     public static void main(String[] args) {
@@ -26,6 +33,11 @@ public class Basics {
         int num2 =4;
         int num3 = 5;
         System.out.println("the addition of num1,num2,num3 is :"+(num1+num2+num3));
+    
+        String greeting = "Hello" ;
+        System.out.println("the addition of num1,num2,num3 is :" + greeting);
+    
+    
     }
     
 }
