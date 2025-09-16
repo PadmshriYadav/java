@@ -13,17 +13,17 @@
 //use then increment Post i++--->5,6
 //Pre ++i--->6,6
 
-public class operators{
+public class Operators{
     public static void main (String[] args){
 
        float a = 7/4*9/2;
-       System.out.println(a); //8.0
+       System.out.println(a); //4.0
 
          float b = 7/4f*9/2;
        System.out.println(b); //7.875
        
-       int b =65;
-       System.out.println((char)(b));//A
+       int c =65;
+       System.out.println((char)(c));//A
 
 
     }
