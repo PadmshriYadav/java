@@ -14,17 +14,19 @@ public class LoopsPractic{
 
     }
      System.out.print(" its factorial is :" + fact);
-     num.close();
+      System.out.print("\n"); 
+     num.close();5
+     
 
-    //  //pattern
+    //pattern
     
-    //  for (int i = 1; i<=5; i++){
-    //      for(int j =1 ;j<=5; i--)....??????????????????//
+     for (int i = 1; i <= 5; i++) {
+          for (int j = 5; j >= i; j--) {
+           System.out.print("*");
+    }
+    System.out.print("\n"); 
+}
 
-    // }
 
-
-
-
-
- }}
+ }
+ }
