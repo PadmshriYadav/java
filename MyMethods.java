@@ -9,6 +9,16 @@ public class MyMethods{
         return num;
     }
 
+    static int sum (int x ){
+        return x+x;
+    }
+
+    static double sum (double x ){
+        return x *3;
+    }
+    //Method Overloading--->exact same name, different parameter
+    //return type is not part of it
+
     static void firstElemnt(int [] array){
         array[0]=60;
     }
@@ -26,10 +36,14 @@ public class MyMethods{
             System.out.println(c);
             greet();
 
+            int s =sum (7);
+             System.out.println(s);
+
+            double t =sum ((double)7);
+             System.out.println(t); 
+
         int [] num = {1,2,3};
         firstElemnt(num);
         System.out.println(num[0]);
-
-
 
     }}
